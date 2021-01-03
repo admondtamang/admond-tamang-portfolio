@@ -1,14 +1,12 @@
 import React from "react";
 import "./about.css";
+import about from "../../assets/img/about.jpg";
 export default function About() {
     return (
         <div id="About">
             <h2 className="heading">About Me</h2>
             <div className="about">
-                <img
-                    src="https://admond-tamang.netlify.app/assets/img/about.jpg"
-                    alt="admond"
-                />
+                <img src={about} alt="admond" />
                 <div className="about__detail">
                     <h3>I'am Admond</h3>
                     <p>

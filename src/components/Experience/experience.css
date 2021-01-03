@@ -1,0 +1,18 @@
+.work__container {
+    display: grid;
+    width: 70%;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 100px;
+    gap: 2em;
+}
+.work__img {
+    display: block;
+}
+.work__img > a {
+    text-decoration: none;
+}
+.work__img > a > p {
+    color: black;
+    text-align: center;
+}

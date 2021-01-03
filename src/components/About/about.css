@@ -1,0 +1,19 @@
+.about {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    align-items: center;
+}
+.about img {
+    flex: 0.2;
+    border-radius: 0.5rem;
+    justify-content: flex-end;
+}
+.about__detail {
+    flex: 0.3;
+}
+@media screen and (min-width: 768px) {
+    .about img {
+        width: 300px;
+    }
+}

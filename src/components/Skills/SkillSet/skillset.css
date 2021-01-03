@@ -1,0 +1,31 @@
+.skills__data {
+    flex: 0.6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+}
+.skills__html {
+    align-items: center;
+    width: 95%;
+}
+.skills__names {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.skills__bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: blue;
+    height: 0.25rem;
+    border-radius: 0.5rem;
+    z-index: 1;
+}

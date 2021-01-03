@@ -1,0 +1,19 @@
+.seeMore {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seeMore a {
+  color: white;
+
+  text-decoration: none;
+  font-size: medium;
+}
+.App__frontPage {
+  background: linear-gradient(
+    122.53deg,
+    #5c18e4 0.44%,
+    rgba(131, 51, 211, 0.93) 81.88%
+  );
+}

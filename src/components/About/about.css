@@ -1,17 +1,20 @@
 .about {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 5em;
     align-items: center;
 }
-.about img {
-    flex: 0.2;
+.about > img {
     border-radius: 0.5rem;
+    display: block;
+    max-width: 250px;
     justify-content: flex-end;
 }
 .about__detail {
-    flex: 0.3;
+    max-width: 40ch;
 }
+
 @media screen and (min-width: 768px) {
     .about img {
         width: 300px;

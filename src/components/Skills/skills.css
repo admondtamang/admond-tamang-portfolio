@@ -2,18 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     gap: 2em;
 }
-.skills__image {
-    flex: 0.4;
-}
-.skills__image img {
+.skills__image > img {
     width: 100%;
     border-radius: 0.5rem;
+    max-width: 500px;
 }
 .skillSet {
-    flex: 0.4;
+    padding: 0 20px;
 }
 .skillSet > p {
     margin-bottom: 40px;

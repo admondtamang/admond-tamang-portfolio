@@ -1,13 +1,13 @@
+#experience {
+    margin-bottom: 100px;
+}
 .work__container {
     display: grid;
-    width: 70%;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     margin: 0 auto;
-    grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 100px;
+    width: 70%;
     gap: 2em;
-}
-.work__img {
-    display: block;
 }
 .work__img > a {
     text-decoration: none;
@@ -15,4 +15,10 @@
 .work__img > a > p {
     color: black;
     text-align: center;
+    padding-top: 0.5em;
+}
+.work__img > a > img {
+    width: 100%;
+    height: 200px;
+    display: block;
 }

@@ -3,7 +3,7 @@ import "./header.css";
 
 export default function Header() {
     return (
-        <div className="header">
+        <header>
             <nav className="header__nav">
                 <ul>
                     <li>
@@ -25,6 +25,6 @@ export default function Header() {
                     </li>
                 </ul>
             </nav>
-        </div>
+        </header>
     );
 }

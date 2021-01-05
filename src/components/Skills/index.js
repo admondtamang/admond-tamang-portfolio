@@ -30,8 +30,8 @@ export default function Skills() {
                         icon={<box-icon name="mobile" />}
                     />
                     <SkillSet
-                        name="UI/Ux"
-                        percentage="70%"
+                        name="UI/UX"
+                        percentage="80%"
                         icon={<box-icon name="paint"></box-icon>}
                     />
                     <SkillSet

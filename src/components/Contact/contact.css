@@ -10,7 +10,8 @@
 .glass {
     padding: 50px 0;
     display: flex;
-    width: 40%;
+    flex-wrap: wrap-reverse;
+    width: max(40%, 50vh);
     gap: 3em;
     align-items: center;
     justify-content: center;
@@ -33,12 +34,13 @@
 
     border-radius: 20px;
 }
-.glass img {
+.glass > img {
     max-width: 244px;
 }
 
 .glass .getInTouch {
-    width: 40%;
+    /* width: 40%; */
+    max-width: 40ch;
     color: white;
 }
 
@@ -48,4 +50,21 @@
 
 .glass .social_icons a {
     color: white;
+}
+@media screen and (max-width: 768px) {
+    .glass .getInTouch {
+        /* width: 40%; */
+        color: purple;
+        padding: 20px;
+    }
+
+    .glass .social_icons a {
+        color: purple;
+    }
+    .glass > img {
+        max-width: 170px;
+    }
+    .glass {
+        height: 60vh;
+    }
 }

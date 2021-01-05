@@ -1,20 +1,28 @@
 .header__nav {
-  display: flex;
-  height: 20vh;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    /* overflow-x: scroll; */
 }
 .header__nav ul li {
-  display: inline;
-  padding: 0 30px;
+    display: inline;
+    padding: 0 30px;
 }
 .header__nav ul li a {
-  text-decoration: none;
-  color: #e5e5e5;
-  font-size: larger;
+    text-decoration: none;
+    color: #e5e5e5;
+    font-size: larger;
 }
 
 .header__nav ul li .active {
-  color: white;
-  font-weight: 600;
+    color: white;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .header__nav ul li {
+        display: inline;
+        padding: 0 5px;
+    }
 }

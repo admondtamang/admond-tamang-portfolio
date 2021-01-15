@@ -8,8 +8,8 @@ import IosImg from "../../assets/img/ios.jpg";
 import "./experience.css";
 export default function Experience() {
     return (
-        <div id="experience">
-            <h3 className="heading">Experience</h3>
+        <div id="experiences">
+            <h3 className="heading">Experiences</h3>
             <div className="work__container ">
                 <div className="work__img">
                     <a href="https://agitated-meninsky-8348ba.netlify.app/">

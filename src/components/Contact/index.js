@@ -4,7 +4,7 @@ import bg from "../../assets/contact.png";
 import "boxicons";
 export default function Contact() {
     return (
-        <div id="contact">
+        <div id="Contact">
             <h1 className="heading">Contact Me</h1>
             <div className="glass">
                 <img src={bg} alt="contact" />

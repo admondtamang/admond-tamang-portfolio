@@ -52,3 +52,19 @@ body {
         background-color: purple;
     }
 }
+
+/* Responsive */
+
+@media screen and (max-width: 1200px) {
+    .header__nav {
+        font-size: smaller;
+    }
+    .profile__right img {
+        width: 200px !important;
+        height: 200px !important;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+}

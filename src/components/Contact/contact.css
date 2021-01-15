@@ -57,10 +57,10 @@
         color: purple;
         padding: 20px;
     }
-
-    .glass .social_icons a {
-        color: purple;
+    .social_icons {
+        text-align: right;
     }
+
     .glass > img {
         max-width: 170px;
     }

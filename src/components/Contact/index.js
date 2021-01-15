@@ -15,28 +15,28 @@ export default function Contact() {
                         any social account mentioned below.
                     </p>
                     <div className="social_icons">
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/admond-tamang-78a39a134/">
                             <box-icon
                                 type="logo"
                                 name="linkedin-square"
                                 color="white"
                             />
                         </a>
-                        <a href="#">
+                        <a href="https://www.facebook.com/admond.tamang.3">
                             <box-icon
                                 type="logo"
                                 name="facebook-square"
                                 color="white"
                             />
                         </a>
-                        <a href="#">
+                        <a href="https://dribbble.com/admond">
                             <box-icon
                                 type="logo"
                                 name="dribbble"
                                 color="white"
                             />
                         </a>
-                        <a href="#">
+                        <a href="https://github.com/admondtamang">
                             <box-icon type="logo" name="github" color="white" />
                         </a>
                     </div>

@@ -8,6 +8,7 @@
     margin: 0 auto;
     width: 70%;
     gap: 2em;
+    padding-bottom: 80px;
 }
 .work__img > a {
     text-decoration: none;

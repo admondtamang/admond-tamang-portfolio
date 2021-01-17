@@ -12,10 +12,28 @@ export default function Experience() {
             <h3 className="heading">Experiences</h3>
             <div className="work__container ">
                 <div className="work__img">
+                    <a href="https://optimistic-hodgkin-15a17e.netlify.app/">
+                        <img src="dashboard.png" loading="lazy" alt="" />
+                        <p>Feather Dashboard (UI only) - React Js</p>
+                    </a>
+                </div>
+
+                <div className="work__img">
+                    <a href="https://5fae96b8717edc45514f59cf--tender-swartz-eae88e.netlify.app/">
+                        <img
+                            src="https://cdn.dribbble.com/users/2754493/screenshots/14527338/media/df69b6297fb2e89f289e7e9bf1a9d92d.png"
+                            loading="lazy"
+                            alt=""
+                        />
+                        <p>Samachar (News website) - Beta</p>
+                    </a>
+                </div>
+                <div className="work__img">
                     <a href="https://agitated-meninsky-8348ba.netlify.app/">
                         <img src={Work1Img} loading="lazy" alt="" />
                         <p>Facebook Clone - React with Firebase</p>
                     </a>
+                    Clone
                 </div>
                 <div className="work__img">
                     <a href="https://youthful-mcnulty-615081.netlify.app/">
@@ -39,14 +57,12 @@ export default function Experience() {
                         <p>UI/UX design - dribbble</p>
                     </a>
                 </div>
-
                 <div className="work__img">
                     <a href="https://github.com/softwarica-github/t3-frontend-admondtamang">
                         <img src={Work4Img} loading="lazy" alt="" />
                         <p>Hoey - the music app (MERN stack)</p>
                     </a>
                 </div>
-
                 <div className="work__img">
                     <a href="https://drive.google.com/file/d/1KI_Zyn-tGj0BVJH4YYiybE7qmIKyx2RS/view?usp=sharing">
                         <img
@@ -57,25 +73,12 @@ export default function Experience() {
                         <p>Covid-19 info (Nepal) - React Native</p>
                     </a>
                 </div>
-
                 <div className="work__img">
                     <a href="https://github.com/admondtamang/farmershop">
                         <img src={Work3Img} loading="lazy" alt="" />
                         <p>Farmershop - React Native</p>
                     </a>
                 </div>
-
-                <div className="work__img">
-                    <a href="https://5fae96b8717edc45514f59cf--tender-swartz-eae88e.netlify.app/">
-                        <img
-                            src="https://cdn.dribbble.com/users/2754493/screenshots/14527338/media/df69b6297fb2e89f289e7e9bf1a9d92d.png"
-                            loading="lazy"
-                            alt=""
-                        />
-                        <p>Samachar (News website) - Beta</p>
-                    </a>
-                </div>
-
                 <div className="work__img">
                     <a href="https://zen-engelbart-2de07e.netlify.app/">
                         <img src={IosImg} loading="lazy" alt="" />
